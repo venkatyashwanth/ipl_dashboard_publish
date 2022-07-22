@@ -1,0 +1,30 @@
+.teamCardStyle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 280px;
+    height: 140px;
+    border: 2px solid #ffffff33;
+    background-color: #ffffff11;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.teamCardStyle p{
+    color: white;
+    text-align: center;
+    font-family: 'Bree Serif';
+    padding-left: 20px;
+}
+
+.teamLogo{
+    width: 60px;
+    height: auto;
+}
+
+.listStyling{
+    text-decoration: none;
+}

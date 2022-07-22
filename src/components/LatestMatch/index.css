@@ -1,0 +1,41 @@
+.latestMatchesContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1100px;
+    padding: 20px;
+    min-height: 300px;
+    border-radius: 8px;
+}
+
+.teamLogoComp{
+    width: 200px;
+    height: auto;
+}
+
+.matchDetailContainer, .matchDetailContainer2{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Bree Serif';
+}
+
+.matchDetailContainer2{
+    text-align: right;
+}
+.matchDetailContainer > p{
+    margin-bottom: 20px;
+}
+
+.matchDetailContainer2 > p{
+    margin-bottom: 20px;
+}
+
+.matchDetailContainer > h1{
+    margin-bottom: 20px;
+}
+
+.latestMatchesContainer{
+    background-color: #0f172a;
+}
